@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #2EC9F0;
+    --cor1: #2E4EF0;
+    --cor2: #2D8CF0;
+    --cor3: #2EF0D8;
+    --cor4: #4B2EF0;
+    --cor5: #7DB5F0;
+    --cor6: #364FF0;
+    --cor7: #F03545;
+
+    --fonte-pafrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neve', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(140, 227, 227, 0.292);
+}
+
+header {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-family:var(--fonte-pafrao);
+}
+
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: var(--cor0);
+}
+
+section.imagem > * {
+    width: 400px;
+    background-color: #2e58f058;
+}
+
+footer {
+    background-color: #4B2EF0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
